@@ -240,7 +240,7 @@ def main(genomes, config):
                 if pipe.collide(bird,win):
 
                     # If bird collides, then penalize fitness and remove bird from list
-                    g[n].fitness -= 1
+                    g[n].fitness -= 2
                     birds.pop(n)
                     nn.pop(n)
                     g.pop(n)
